@@ -9,7 +9,7 @@ function Todo() {
     return (
         <>
             <div className='font-semibold uppercase text-white'>Todos : </div>
-            <ul className="list-none w-11/12 mx-auto">
+            <ul className="list-none md:w-11/12 mx-auto w-full">
                 {todos?.map((todo) => (
                     <li
                         className={`mt-4 flex justify-between items-center  px-4 py-2 rounded  ${todo.checked ? "bg-[#659ee0]" : "bg-zinc-800"
